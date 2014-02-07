@@ -1,0 +1,23 @@
+#%RAML 0.8
+
+title: Test API
+version: v1
+
+/songs:
+  post:
+    description: |
+      controllers.Application.index
+    queryParameters:
+      genre:
+        description: filter the songs by genre
+  
+  /{songId}-asd:
+    get:
+      description: |
+        controllers.Application.song(songId)
+
+/assets:
+  /{file}:
+    get:
+      description: |
+        controllers.Assets.at(path="/public", file)
