@@ -1,7 +1,7 @@
 # sbt-play-raml
 
 sbt-play-raml is a sbt plugin bringing RAML style route definitions to the playframework.
-It replaces the default routes definition syntax used in `conf/routes` with RAML (http://ramel.org).
+It replaces the default routes definition syntax used in `conf/routes` with RAML (http://raml.org).
 
 ## Installation
 
