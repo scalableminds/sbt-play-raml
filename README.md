@@ -9,7 +9,7 @@ The library is still under heavy development. The library is not yet published (
 
 **1.** Add the following lines to your sbt plugins file `project/plugins.sbt`:
 ```
-addSbtPlugin("com.scalableminds.raml" %% "sbt-play-raml" % "0.1-SNAPSHOT")
+addSbtPlugin("com.scalableminds" %% "sbt-play-raml" % "0.1-SNAPSHOT")
 ```
 
 **2.** Tell play where to find the compiled routes by adding the following line to your `configuration.conf`:
